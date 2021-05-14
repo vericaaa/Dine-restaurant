@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Dine restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Verica Zivkovic"/>
+        <meta name="description" content="Dine restaurant"/>
+        <meta name="keywords" content="Dine, restaurant, events, food"/>
+
+        <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <section class="booking">
+            <div class="container">
+                <a class="logo" href="index.html">
+                    <img src="images/logo.png" alt=""/>
+                </a>
+                <div class="booking-container">
+                    <div class="booking-item">
+                        <h1>Reservations</h1>
+                        <p>
+                            We can't wait to host you. If you have any
+                            special requirements please feel free to call on
+                            the phone number below. We'll be happy to 
+                            accommodate you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking-now">
+            <figure class="rectangle-lines">
+                <img class="rectangle" src="images/items/rectangle-3.png" alt=""/>
+                <img class="lines" src="images/items/item-1.png" alt=""/>
+            </figure>
+
+         
+
+            <div class="container">
+                <div class="booking-now-container">
+
+
+
+                    <div class="booking-menu">
+                        <input id="name" type="text" name="name" placeholder="Name" required="" value=""/>
+                        <input id="email" type="email" name="email" placeholder="Email" required="" value=""/>
+                        <div class="date-pick">
+                            <label>Pick a date</label>
+                            <input id="date" type="number" name="number" placeholder="MM" required="" value=""/>
+                            <input id="date" type="number" name="number" placeholder="DD" required="" value=""/>
+                            <input id="date" type="number" name="number" placeholder="YYYY" required="" value=""/>
+                        </div>
+                        <div class="time-pick">
+                            <label>Pick a time</label>
+                            <input id="time" type="number" name="number" placeholder="09" required="" value=""/>
+                            <input id="time" type="number" name="number" placeholder="00" required="" value=""/>
+                            <select id="time-option" required="">
+                                <optgroup>
+                                    <option value="am">AM</option>
+                                    <option value="pm">PM</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="people">
+                            <input id="people" type="number" name="number" placeholder="Number of people" required="" value=""/>
+                        </div>
+                        
+                        <a id="make-reservation" href="">make reservation</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--footer start-->
+        <footer>
+            <div class="container">
+
+                <div class="info">
+                    <a class="logo" href="index.html">
+                        <img src="images/logo.png" alt=""/>
+                    </a>
+                    <div class="place">
+                        <p>marthwaite, sedbergh</p>
+                        <p>cumbria</p>
+                        <p><a href="+00441234567">+00 44 123 4567</a></p>
+                    </div>
+
+                    <div class="open">
+                        <p>open times</p> 
+                        <p>mon - fri: 09:00 am - 10 : 00 pm</p> 
+                        <p>sat - sun: 09:00 am - 11 : 30 pm</p> 
+                    </div>
+                </div>
+
+            </div>
+        </footer><!--footer end-->
+
+
+    </body>
+</html>
